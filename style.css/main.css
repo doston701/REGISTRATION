@@ -1,0 +1,203 @@
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/inter-v12-latin-regular.woff2") format("woff2"),
+    url("../fonts/inter-v12-latin-regular.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  src: local(""), url("../fonts/inter-v12-latin-500.woff2") format("woff2"),
+    url("../fonts/inter-v12-latin-500.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("../fonts/inter-v12-latin-700.woff2") format("woff2"),
+    url("../fonts/inter-v12-latin-700.woff") format("woff");
+  font-display: swap;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #e7e7e7;
+}
+
+.container {
+  width: 1192px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
+.site-main {
+  padding: 80px 0 80px 0;
+}
+
+.hero-section-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.hero-info-wrapper {
+  width: 570px;
+  height: 640px;
+  background-image: url("../images/background-hero-image.png");
+  border-radius: 21px;
+}
+
+.hero-title-wrapper {
+  width: 458px;
+  padding: 55px 0px 283px 60px;
+}
+
+.hero-cta {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  padding: 5px 15px 5px 15px;
+  text-align: center;
+  margin-bottom: 60px;
+  color: #ffffff;
+  opacity: 0.8;
+  border: 1px solid #ffffff;
+  border-radius: 41px;
+  width: 198px;
+}
+
+.hero-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 46px;
+  margin-bottom: 25px;
+
+  color: #ffffff;
+}
+
+.hero-text-wrapper {
+  width: 300px;
+}
+
+.hero-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 232px;
+
+  color: #ffffff;
+}
+
+.hero-cost-link {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 23px;
+  margin-left: 78px;
+
+  color: #ffffff;
+}
+
+.registration-wrapper {
+  width: 570px;
+  height: 640px;
+  margin-left: 12px;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+
+.all-wrapper {
+  padding: 55px 60px 40px 60px;
+}
+
+.registration-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 42px;
+  margin-bottom: 79px;
+
+  color: #000000;
+}
+
+.registration-info-wrapper {
+  display: flex;
+  margin-bottom: 35px;
+}
+
+.input-registration {
+  flex-grow: 1;
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 19px;
+  border: none;
+  padding-bottom: 14px;
+  border-bottom: 1px solid #555555;
+}
+
+.input-registration:focus {
+  outline: unset;
+}
+
+.registration-link-wrapper {
+  margin-top: 83px;
+}
+
+.registration-link {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  background-color: #655af2;
+  border-radius: 10px;
+  padding: 20px 156px 20px 140px;
+
+  color: #ffffff;
+}
+
+.registration-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 15px;
+  margin-top: 28px;
+  margin-left: 50px;
+
+  color: #555555;
+}
+
+.registration-terms-link {
+  color: #f03535;
+  border-bottom: 1px solid #f03535;
+}
